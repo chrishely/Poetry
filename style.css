@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     background: rgb(31, 29, 29);
+    background: linear-gradient(rgba(0, 0, 0, 0.966), rgb(255, 255, 255));
 }
 
 .title, h1 {
@@ -31,12 +32,14 @@ body {
     padding: 1rem 2.5rem;
     color: blanchedalmond;
     cursor: pointer;
+    outline: none;
+    border: none;
 }
 
 .poemBtn:hover {
     background-color: rgb(70, 1, 1);
     outline: none;
-
+    border: none;
 }
 
 .poetryGenContainer {
